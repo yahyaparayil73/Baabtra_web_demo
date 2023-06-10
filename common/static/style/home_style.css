@@ -1,0 +1,397 @@
+.starting_div {
+
+    background-color: rgb(38, 59, 94);
+
+}
+
+nav div img {
+
+    margin-left: 65px;
+
+}
+
+.navbar div ul li {
+
+    padding-left: 30px;
+
+}
+
+.navbar div ul {
+
+    padding-left: 153px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+}
+
+.navbar div ul button {
+
+    font-weight: 600;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.navbar div ul li a {
+
+    color: white;
+
+}
+
+.navbar div ul ul li a {
+
+    color: black;
+
+}
+
+.main_heading {
+
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.body_main_div {
+
+    padding-top: 20px;
+    background-color: rgb(38, 59, 94);
+    height: 1000px;
+}
+
+.subheading {
+
+    margin-top: 80px;
+    padding-left: 85px;
+    color: white;
+    line-height: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+
+.subheading::before {
+
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #ff1949;
+
+}
+
+.body_sub_div1 {
+
+    padding-left: 85px;
+    color: white;
+
+}
+
+.body_sub_div2 {
+
+    padding-bottom: 180px;
+
+}
+
+.h2_1 {
+
+
+    font-weight: 600;
+
+}
+
+.h6_1 {
+
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 30px;
+
+}
+
+.div_button {
+
+    width: 190px;
+    height: 60px;
+    margin-top: 30px;
+    font-weight: 600;
+
+}
+
+.oray_box {
+
+    width: 1100px;
+    height: 250px;
+    background-color: #ff1949;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: -130px;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.oray_box div h3 {
+
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.oray_box_text {
+
+    padding-top: 25px;
+
+}
+
+.oraybox_button_div {
+
+    padding-top: 25px;
+
+}
+
+.brochure_button {
+
+    border-radius: 20px;
+    background-color: rgb(38, 59, 94);
+    text-decoration: none;
+    color: white;
+    width: 230px;
+    height: 40px;
+
+}
+
+.text_comb_div {
+
+    text-align: center;
+    height: 230px;
+    width: 100%;
+    margin-top: 50px;
+
+
+}
+
+.text_comb_div span {
+
+    color: #ff1949;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+
+}
+
+.text_comb_div h2 {
+    padding-top: 30px;
+    font-weight: 650;
+
+}
+
+.courses_div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box_div {
+
+    height: 200px;
+    width: 196px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(146, 184, 255, .2);
+
+}
+
+.box_div:hover {
+
+    transform: scale(1.1);
+
+}
+
+.box_div h4 {
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 20px;
+
+}
+
+#explore_course_id {
+
+    height: 650px;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.image_fluid {
+
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+
+}
+
+.explore_internship_main_div div ul {
+
+    margin-top: 30px;
+
+}
+
+.explore_internship_main_div div ul li span {
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff1949;
+
+}
+
+.explore_course_span {
+
+    font-size: 13px;
+    color: #385777;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+
+.explore_course_span:before {
+
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 2px;
+    background: #ff1949;
+    margin-top: 8px;
+    right: 0;
+    left: 0;
+
+}
+
+.explore_internship_main_div div div h3 {
+
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 36px;
+    color: #07294d;
+
+}
+
+.explore_internship_main_div_subdiv {
+
+    padding-left: 30px;
+
+}
+
+div div ul {
+
+    list-style-type: none;
+
+}
+
+.explore_course_p {
+
+    color: #535967;
+    font-family: sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+
+}
+
+.button_ul {
+
+    background: #ff1949;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    padding: 16px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.fa-check:before {
+
+    content: "\f00c";
+
+}
+
+.logo_div {
+
+    height: 450px;
+
+}
+
+.logo_div div div i {
+
+    font-size: 2.25em;
+    line-height: .05em;
+    vertical-align: -0.075em;
+    color: #ff1949;
+
+}
+
+.logo_div div div h4 {
+
+    font-weight: 700;
+    line-height: 4;
+
+}
+
+.logo_div div div p {
+
+    line-height: 28px;
+    font-size: 16px;
+
+}
+
+.card_design {
+
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(146, 184, 255, .2);
+    border-radius: 10px;
+    color: #07294d;
+    padding: 30px;
+
+}
+
+.card_design:hover {
+
+    background-color: #ff1949;
+    color: white;
+    transform: scale(1.07);
+
+}
+
+.card_design:hover i {
+
+    color: white;
+
+}
+
+.placed_div {
+
+    height: 400px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+
+}

@@ -1,0 +1,250 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baabtra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'style/home_style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="starting_div">
+        <!-- ************************** nav bar start ************************* -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="{% static 'images/baabtra_logo.png' %}" alt="" width="200px" class="img_class">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Programs
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Placements</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <button class="btn btn-danger">Enquire Now</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ************************** nav bar end ************************* -->
+
+    </div>
+    <div class="row body_main_div">
+        <div class="row">
+            <span class="subheading">
+                LEARN SOFTWARE
+            </span>
+        </div>
+        <div class="row second_div">
+            <div class="col body_sub_div1">
+                <h1 class="h2_1">
+                    Getting a Software Job is So Easy Now with our IT Internship Programs.
+                </h1>
+                <h5 class="h6_1">
+                    Learn programming from Kerala's most trusted software training company with the highest placement
+                    record.
+                    Enroll in software courses and internship programs in Python, Flutter, Angular, React and PHP to
+                    start
+                    your
+                    career. </h5>
+                <button class="btn btn-danger div_button">Our Courses</button>
+            </div>
+            <div class="col body_sub_div2">
+
+                <img src="{% static 'images/baabtra_img.png' %}" alt="" height="600px" width="700px">
+
+            </div>
+        </div>
+    </div>
+    <div class=" row oray_box">
+        <div class="col-lg-2">
+            <img src="{% static 'images/Oray-Logo.png' %}" alt="" width="120px">
+        </div>
+        <div class="col-lg-6 oray_box_text">
+            <span class="subheading_2">
+                WE ARE AFFILIATED WITH
+            </span>
+            <h3>Oray Education London, UK</h3>
+        </div>
+        <div class="col-lg-4 oraybox_button_div">
+            <button class=" btn dropdown-toggle brochure_button" data-bs-toggle="dropdown">Download Brochure</button>
+        </div>
+
+    </div>
+    <div class="text_comb_div">
+
+        <span>
+            EXPERTISE IN EDUCATION
+        </span>
+        <h2>
+            Ed-tech company with 12 Years of industry leadership in <br> training and placements, holding highest number
+            of <br>
+            placement track in Malabar.
+        </h2>
+
+    </div>
+    <div class="container courses_div">
+        <div class="box_div">
+            <div class="course_image_div">
+                <img src="{% static 'images/python_logo.png' %}" alt="" width="80px">
+            </div>
+            <div class="course_heading_div">
+                <h4>Python<br>Training</h4>
+            </div>
+        </div>
+        <div class="box_div">
+            <div class="course_image_div">
+                <img src="{% static 'images/flutter_logo.png' %}" alt="" width="80px">
+            </div>
+            <div class="course_heading_div">
+                <h4>Flutter<br>Training</h4>
+            </div>
+        </div>
+        <div class="box_div">
+            <div class="course_image_div">
+                <img src="{% static 'images/angular_logo.png' %}" alt="" width="80px">
+            </div>
+            <div class="course_heading_div">
+                <h4>Angular<br>Training</h4>
+            </div>
+        </div>
+        <div class="box_div">
+            <div class="course_image_div">
+                <img src="{% static 'images/react_logo.png' %}" alt="" width="80px">
+            </div>
+            <div class="course_heading_div">
+                <h4>React<br>Training</h4>
+            </div>
+        </div>
+        <div class="box_div">
+            <div class="course_image_div">
+                <img src="{% static 'images/php_logo.png' %}" alt="" width="80px">
+            </div>
+            <div class="course_heading_div">
+                <h4>PHP<br>Training</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container explore_internship_main_div">
+        <div class="row" id="explore_course_id">
+            <div class="col">
+                <img src="{% static 'images/explore_course.png' %}" alt="" class="image_fluid">
+            </div>
+            <div class="col">
+                <div class="explore_internship_main_div_subdiv">
+                    <span class="explore_course_span">EXPLORE OUR INTERNSHIP PROGRAMME
+                    </span>
+                    <h3>Learn new skills to go ahead of your career</h3>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <span>
+                                Join Us
+                            </span>
+                            <p class="explore_course_p">
+                                It doesn’t matter how talented you are. Join specialized job oriented software courses &
+                                training programs and just learn the in-demand skills to be a better programmer.
+                            </p>
+                        </li>
+                        <li>
+                            <span>
+                                Get Skilled for Job
+                            </span>
+                            <p class="explore_course_p">
+                                Get trained and skilled under the guidance of expert software engineers and be ready for
+                                the jobs.
+                            </p>
+                        </li>
+                        <li>
+                            <span>
+                                Get Hired
+                            </span>
+                            <p class="explore_course_p">
+                                Showcase your profile with skills acquired and get hired by your dream company.
+                            </p>
+                        </li>
+                        <button class="btn btn-danger button_ul"> <i class="fa fa-check mr-2"></i> Know More</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container logo_div">
+        <div class="row">
+            <div class="col-lg-4 card_design">
+                <i class="fa-solid fa-award fa-lg"></i>
+                <h4>
+                    CS Talent Show
+                </h4>
+                <p>
+                    CS talent show, a live event hosted by the student community through their social media channels
+                    to showcase the projects done by students. Our instructors will monitor the students’ projects
+                    and provide guidance.
+                </p>
+            </div>
+
+            <div class="col-lg-4 card_design">
+                <i class="fa-solid fa-mug-hot fa-lg"></i>
+                <h4>
+                    Coffee with HR </h4>
+                <p>
+                    MNC HR representatives will visit Baabtra students to present their company, job opportunities,
+                    And job nature. Students will learn about the companies and have the chance to apply for jobs.
+                </p>
+            </div>
+            <div class="col-lg-4 card_design">
+                <i class="fa-solid fa-globe fa-lg"></i>
+                <h4>
+                    Digital Fest
+                </h4>
+                <p>
+                    Digital fest for baabtra students is a platform for students to showcase their software
+                    application development skills to companies for securing a job.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="placed_div">
+
+    </div>
+</body>
+
+</html>
