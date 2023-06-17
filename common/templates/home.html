@@ -13,6 +13,7 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{% static 'style/home_style.css' %}">
+    <script src="{% static 'js/home_script.js' %}"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,7 +23,7 @@
 <body>
     <div class="starting_div">
         <!-- ************************** nav bar start ************************* -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container-fluid">
                 <img src="{% static 'images/baabtra_logo.png' %}" alt="" width="200px" class="img_class">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -180,7 +181,7 @@
                                 Join Us
                             </span>
                             <p class="explore_course_p">
-                                It doesn’t matter how talented you are. Join specialized job oriented software courses &
+                                It doesn't matter how talented you are. Join specialized job oriented software courses &
                                 training programs and just learn the in-demand skills to be a better programmer.
                             </p>
                         </li>
@@ -216,7 +217,7 @@
                 </h4>
                 <p>
                     CS talent show, a live event hosted by the student community through their social media channels
-                    to showcase the projects done by students. Our instructors will monitor the students’ projects
+                    to showcase the projects done by students. Our instructors will monitor the students' projects
                     and provide guidance.
                 </p>
             </div>
@@ -243,7 +244,327 @@
         </div>
     </div>
     <div class="placed_div">
+        <div class="container row">
+            <div class="col">
+                <span>
+                    THE SUCCESS STORIES
+                </span>
+                <h3>
+                    Placed Candidates
+                </h3>
+            </div>
+            <div class="col">
+                <button class="btn btn-danger">Placements</button>
+            </div>
+        </div>
+        <div class="row placement_row_div">
+            <div class="col-lg-3 placed_stud_div">
+                <img src="{% static 'images/anupama_pic.png' %}" alt="" width="200px">
+                <h5>Anupama TM</h5>
+                <p>Software Trainer Trainee <br> Baabte System Technologies
+                </p>
+            </div>
+            <div class="col-lg-3 placed_stud_div">
+                <img src="{% static 'images/baabtra-placed-candidate-71.png' %}" alt="" width="200px">
+                <h5>Suvarna Murali</h5>
+                <p>Software Trainer Trainee <br> Baabte System Technologies
+                </p>
+            </div>
+            <div class="col-lg-3 placed_stud_div">
+                <img src="{% static 'images/baabtra-placed-candidate-58.png' %}" alt="" width="200px">
+                <h5>Athira MJ</h5>
+                <p>Software Trainer Trainee <br> Baabte System Technologies
+                </p>
+            </div>
+            <div class="col-lg-3 placed_stud_div">
+                <img src="{% static 'images/baabtra-placed-candidate-68.png' %}" alt="" width="200px">
+                <h5>Muhammed Rishan</h5>
+                <p>Software Trainer Trainee <br> Baabte System Technologies
+                </p>
+            </div>
+        </div>
 
+    </div>
+    <div class="number_effect_div">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <i class="fa-regular fa-user"></i>
+                    <div class="number_effect"></div>
+                    <p>
+                        Hiring Partners
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    <div class="number_effect"></div>
+                    <p>
+                        Certified Courses
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa-regular fa-face-laugh"></i>
+                    <div class="number_effect"></div>
+                    <p>
+                        Happy Students
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa-solid fa-suitcase"></i>
+                    <div class="number_effect"></div>
+                    <p>
+                        Placements
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hiring_partners">
+        <div class="hiring_partners_sub">
+            <span>
+                HIRING PARTNERS
+            </span>
+            <h2>
+                Organizations Our Students are <br> Placed at
+            </h2>
+            <span></span>
+        </div>
+        <div class="container">
+            <div class="row" id="row_id">
+                <div class="col-lg-2">
+                    <img src="{% static 'images/cognizant.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/infosys.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/oracle.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/tata-consultancy-service.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/schneider-electric.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/UST-Global.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/sesame-inspire-innovate.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/nucore.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/SRIT-India.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/vinam.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/UL-Technology-Solutions.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/Limenzy-Technology.png' %}" alt="" width="120px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accreditation_div">
+        <div>
+            <span>
+                HIGHEST HONOURS
+            </span>
+            <h3>
+                Accreditation
+            </h3>
+            <p>Baabtra is the skill development division of an IT Company Baabte System Technologies Pvt Ltd,
+                headquartered in London UK, which is a member of <br> NASSCOM (National Association of Software Service
+                Companies), GTECH (Group of Technology Companies) and CAFIT (Calicut Forum for IT) having <br> different
+                software products in education domain. As part of the college curriculum many student groups are
+                choosing baabtra.com as their platform for <br> industrial visit. This is really helping college
+                students to
+                understand the working environment in an IT company and they can experience new <br> technologies and
+                trends
+                in this field.</p>
+        </div>
+        <div class="container">
+            <div class="row" id="row_id_2">
+                <div class="col-lg-2">
+                    <img src="{% static 'images/baabtra-cafit.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/baabtra-gtech.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/baabtra-guiness-book.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/baabtra-NACTET.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/baabtra-nasscom.png' %}" alt="" width="120px">
+                </div>
+                <div class="col-lg-2">
+                    <img src="{% static 'images/baabtra-othm.png' %}" alt="" width="120px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container blog_main_div">
+        <div class="blog_div">
+            <div>
+                <span>
+                    BLOG
+                </span>
+                <h3>
+                    Latest Blog
+                </h3>
+                <p>
+                    Stay up to date with the latest tech news and trends with our blog.
+                </p>
+            </div>
+            <div class="blog_div_card_div">
+                <div class="row blog_div_card">
+                    <div class="card col-lg-4 card_class">
+                        <img src="{% static 'images/how-to-upgrade-yourself-as-an-early-stage-programmer-in-india.jpg' %}"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <span>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Dec 20, 2022
+                                </span>
+                            </div>
+                            <h2 class="card-text">How to Upgrade Yourself as an Early-Stage Programmer in India?</h2>
+                            <a href="#" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4 card_class">
+                        <img src="{% static 'images/improve-your-skills-in-web-technologies.jpg' %}"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div>
+                                <span>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Nov 14, 2022
+                                </span>
+                            </div>
+                            <h2 class="card-text">How you can improve your skills in web technologies?</h2>
+                            <a href="#" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4 card_class">
+                        <img src="{% static 'images/career-opportunities-in-python.jpg' %}" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <div>
+                                <span>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Oct 22, 2022
+                                </span>
+                            </div>
+                            <h2 class="card-text">Career Opportunities in Python</h2>
+                            <a href="#" class="btn btn-danger" id="btn_id_3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="footer_col_div">
+                    <h2>About Us</h2>
+                    <p>Baabtra, the best software training company in Calicut has proved its expertise by training and
+                        placing several hundreds of students both in MNC's like UST Global, Infosys, Oracle etc and
+                        SME's like Nucore Software Solutions, Sesame, IOSS, ULTS.
+                    </p>
+                    <div class="row">
+                        <div class="ul_inside_div" id="ul_inside_div_id">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer_col_div">
+                    <h2>Company</h2>
+                    <ul class="ul_class">
+                        <li>About us</li>
+                        <li>Placements</li>
+                        <li>Testimonials</li>
+                        <li>Gallery</li>
+                        <li>Contact us</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="footer_col_div">
+                    <h2>Courses</h2>
+                    <ul class="ul_class">
+                        <li>Python</li>
+                        <li>Flutter</li>
+                        <li>Angular</li>
+                        <li>PHP</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div id="footer_col_div_id">
+                    <h2>Contact
+                    </h2>
+                    <ul class="ul_class">
+                        <li>
+                            <div>
+                                <span>
+                                    <i class="fa-solid fa-headphones"></i>
+                                    <a href="#">8592058444</a>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <a href="#">info@baabtra.com</a>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <i class="fa-sharp fa-solid fa-map-location"></i>
+                                    <a href="#">CAFIT Square,5th Floor,HiLite Business Park,Thondayad Bye-Pass,Hilite
+                                        City,Calicut,Kerala,India.</a>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="{% static 'images/logo-footer (1).png' %}" alt="" width="200px">
+                </div>
+                <div class="col">
+                    <p>Copyright reserved to Baabtra. Proudly Crafted by <span class="dataroots_span">Dataroots
+                            Tech</span> .</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
